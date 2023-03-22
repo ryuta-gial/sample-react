@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
+import Form from "./pages/Form";
 import NotFound from "./pages/NotFound";
 const App: React.FC = () => {
   return (
@@ -31,5 +32,11 @@ export const routeDefinition = {
     element: <Posts />,
     step: 1,
     title: "とりあえずページ",
+  },
+  tryReactFormCol: {
+    path: "from",
+    element: <Form />,
+    step: 1,
+    title: "フォームページ",
   },
 };
