@@ -1,9 +1,10 @@
 ## SETUP
 
-- yarn install
-- yarn start
+- npm install
+- npm start
 
 ## ライブラリ
 
 - React Router
 - React Hook Form
+- react-big-calendar
